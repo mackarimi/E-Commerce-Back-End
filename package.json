@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce-back-end",
+  "version": "1.0.0",
+  "description": "This is the back-end program for a website that sells things. It gives the website a working Express.js API that uses the latest technologies to power the website's features and allow it to compete with other e-commerce businesses.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@work.github.com:JinSeal/e-commerce-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.4.0",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
