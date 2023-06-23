@@ -1,6 +1,7 @@
 # E-Commerce Back End
 
 ## Description
+
 This is the back-end program for a website that sells things. It gives the website a working Express.js API that uses the latest technologies to power the website's features and allow it to compete with other e-commerce businesses.
 
 ## Table of Contents
@@ -27,8 +28,8 @@ This is the back-end program for a website that sells things. It gives the websi
 ## Usage
 
 1. Start the application: `npm start`
-2.
-3.
+2. Open Insomnia Core
+3. Test the routes
 
 ## Screenshots
 
