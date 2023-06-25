@@ -1,6 +1,7 @@
 # Dependency directories
 node_modules/
 package-lock.json
+.DS_Store
 
 # Optional npm cache directory
 .npm
