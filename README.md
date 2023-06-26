@@ -19,7 +19,7 @@ This is the back-end program for a website that sells things. It gives the websi
 
 ## Installation
 
-. Clone the repository: `git clone https://github.com/mackarimi/`
+. Clone the repository: `git clone https://github.com/mackarimi/ecommerce_back_end.git`
 . Navigate to the repo directory: `cd`
 . Open the repo in VSCode: `code .`
 . Open the integrated terminal from the VSCode: `ctrl+~`
