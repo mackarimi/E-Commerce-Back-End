@@ -1,6 +1,7 @@
 # Dependency directories
 node_modules/
 package-lock.json
+package.json
 .DS_Store
 
 # Optional npm cache directory
@@ -12,5 +13,3 @@ package-lock.json
 .env.test.local
 .env.production.local
 .env.local
-
-
