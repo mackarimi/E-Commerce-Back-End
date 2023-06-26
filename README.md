@@ -27,16 +27,28 @@ This is the back-end program for a website that sells things. It gives the websi
 
 ## Usage
 
-1. Start the application: `npm start`
-2. Open Insomnia Core
-3. Test the routes
+1. Create the database: `mysql -u root -p`
+   . Enter the password
+   . Run the schema: `source db/schema.sql`
+   . Quit MySQL: `quit`
+2. Seed the database: `npm run seed`
+3. Start the application: `npm start`
+4. Start the server: `npm run watch` or `nodemon server.js`
+5. Open Insomnia Core
+   . Start GET, POST, PUT, and DELETE routes for categories, products, and tags as needed.
 
 ## Screenshots
 
-![](./)
+![](/Assets/Pics/MySQL_ecommerce_tables.jpg)
+![](/Assets/Pics/tags.jpg)
+![](/Assets/Pics/products.jpg)
+![](/Assets/Pics/categories.jpg)
+![](/Assets/Pics/created_tag.jpg)
+![](/Assets/Pics/updated_tag.jpg)
+![](/Assets/Pics/deleted.jpg)
 
 View demo video here:
-https://www.loom.com/
+https://www.loom.com/share/d8660b95ac5e4c7eb4bdeaef939c47b3?sid=c832a746-76fc-44a1-bafe-162880536c66
 
 ## License
 
@@ -48,7 +60,27 @@ Please let me know how I can improve this project. Issues and pull requests are 
 
 ## Test
 
-No test is included in this project.
+Open Insomnia Core
+. Start GET, POST, PUT, and DELETE routes for categories, products, and tags as needed.
+
+.Run the following commands in the terminal to test the routes:
+. GET all categories: `http://localhost:3001/api/categories`
+. GET one category: `http://localhost:3001/api/categories/1`
+. POST a category: `http://localhost:3001/api/categories`
+. PUT a category: `http://localhost:3001/api/categories/1`
+. DELETE a category: `http://localhost:3001/api/categories/1`
+
+. GET all products: `http://localhost:3001/api/products`
+. GET one product: `http://localhost:3001/api/products/1`
+. POST a product: `http://localhost:3001/api/products`
+. PUT a product: `http://localhost:3001/api/products/1`
+. DELETE a product: `http://localhost:3001/api/products/1`
+
+. GET all tags: `http://localhost:3001/api/tags`
+. GET one tag: `http://localhost:3001/api/tags/1`
+. POST a tag: `http://localhost:3001/api/tags`
+. PUT a tag: `http://localhost:3001/api/tags/1`
+. DELETE a tag: `http://localhost:3001/api/tags/1`
 
 ## Credits
 
@@ -68,4 +100,4 @@ Questions or feedbacks are always welcome and appreciated.💬
 
 ## GitHub Link:
 
-[![Github-link](./Assets/icon_images//image-2.png)](https://github.com/mackarimi/)
+[![Github-link](./Assets/icon_images//image-2.png)](https://github.com/mackarimi/ecommerce_back_end)
